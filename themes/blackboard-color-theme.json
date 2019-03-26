@@ -73,13 +73,7 @@
       }
     },
     {
-      "scope": "constant.language",
-      "settings": {
-        "foreground": "#DDDDDD"
-      }
-    },
-    {
-      "scope": ["constant.numeric"],
+      "scope": ["constant.language", "constant.numeric"],
       "settings": {
         "foreground": "#BCF2CE"
       }
@@ -299,17 +293,11 @@
         "source.coffee.embedded"
       ],
       "settings": {
-        "foreground": "#CEC0AB"
+        "foreground": "#ABDBB7"
       }
     },
     {
-      "scope": "keyword",
-      "settings": {
-        "foreground": "#DDDDDD"
-      }
-    },
-    {
-      "scope": "keyword.control",
+      "scope": ["keyword", "keyword.control"],
       "settings": {
         "foreground": "#DDDDDD"
       }
